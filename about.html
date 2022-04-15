@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta thhp-equiv="X-UA-Compatible" content="IE-edge,chrome=1">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+		<title>About</title>
+		<!-- add css -->
+		<link rel="stylesheet" href="css/about.css">
+		</head>
+		<body>
+			<header>
+			<h1>The Ghost</h1>
+		</header>
+		<!-- nav -->
+		<nav>
+			<i class="fas fa-bars" onclick="menu()"></i>
+			<h2>Ethical Hacking</h2>
+			
+		</nav>
+		<hr>
+		<!-- menu -->
+		<div  id="box1">
+			<h1><a href="index.html"><span class="ty">Home</span></a></h1>
+			<h1><a href="https://web.facebook.com/Telecom.Engineer.Ghost" ><span class="ty"> Contact</span></a></h1>
+			<h1><a href="about.html"><span class="ty" >About</span></a></h1>
+		</div>
+		<center>
+			<img src="images/logo.jpg" alt="logo" id="logo">
+		</center>
+			<div id="box">
+				<h1>
+				The Ghost is a special site for publishing information about hacking and programming ,This site has been programmed to serve as a reference for everyone who is programmed or interested in the field of information security, especially those who follow The Ghost page.
+				</h1>
+			</div>
+			
+			<!-- footer -->
+			<footer>
+				
+				<h3><a href="https://web.facebook.com/Telecom.Engineer.Ghost" id="By">THE GHOST</a></h3><br>
+			<b>Copy right 2022 ,All Rights Reserved ©</b>
+			</footer>
+			<script type="text/javascript">
+		var d = document.getElementById("box1");
+		function closenav(){
+			d.style.height = "0px";
+		}
+		function opennav(){
+			d.style.height = "200px";
+		}
+			function menu(){
+				if(d.style.height === "200px"){
+					closenav()
+				} else{
+					opennav()
+				}
+				}
+		</script>
+		</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta thhp-equiv="X-UA-Compatible" content="IE-edge,chrome=1">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<title>The-Ghost</title>
+    	
+    	<!-- add css file -->
+    	<link href="css/style.css" rel="stylesheet">
+	</head>
+	<body>
+		
+		<!-- header -->
+		<header>
+			<h1>THE GHOST</h1>
+		</header>
+		
+		<!-- nav -->
+		<nav>
+			<i class="fas fa-bars" onclick="menu()"></i>
+			<h2>Ethical Hacking</h2>
+			
+		</nav>
+		<hr>
+		<!-- menu -->
+		<div  id="box">
+			<h1><a href="index.html"><span class="ty">Home</span></a></h1>
+			<h1><a href="https://web.facebook.com/Telecom.Engineer.Ghost" ><span class="ty"> Contact</span></a></h1>
+			<h1><a href="about.html"><span class="ty" >About</span></a></h1>
+		</div>
+		<center>
+		<img src="images/logo.jpg" alt="logo" id="logo">
+	    </center>
+			<h1 id="txt1">This site  is for publishing information about hacking and programming.</h1>
+			<div id="section1">
+				<img src="images/python.jpg" alt="python" id="python">
+					<h1>* Course Python *</h1>
+					<h3 class="corses">Course <span>1</span>: <a href="https://m.facebook.com/story.php?story_fbid=265199348159745&id=101083841237964"><span class="y"> Introduction</span></a></h3>
+					<h3 class="corses">Course <span>2</span>: <a href="https://m.facebook.com/story.php?story_fbid=265614464784900&id=101083841237964"><span class="y">Print</span></a></h3>
+					<h3 class="corses">Course <span>3</span>: <a href="https://m.facebook.com/story.php?story_fbid=266299991383014&id=101083841237964"><span class="y">Comments & variables</span></a></h3>
+					<h3 class="corses">Course <span>4</span>: <a href="https://m.facebook.com/story.php?story_fbid=267140817965598&id=101083841237964"><span class="y">Variable Types & Mathematical Calculations</span></a></h3>
+					<h3 class="corses">Course <span>5</span>: <a href="https://m.facebook.com/story.php?story_fbid=267914647888215&id=101083841237964"><span class="y">Inputs & Comparison Operations & The Conditions</span></a></h3>
+					<h3 class="corses">Course <span>6</span>: <a href="https://m.facebook.com/story.php?story_fbid=268512017828478&id=101083841237964"><span class="y">Loops</span></a></h3>
+					<h3 class="corses">Course <span>7</span>: <a href="https://m.facebook.com/story.php?story_fbid=269266944419652&id=101083841237964"><span class="y">Lists & Dictionary & Function</span></a></h3>
+					<h3 class="corses">Course <span>8</span>: <a href="https://m.facebook.com/story.php?story_fbid=269333624412984&id=101083841237964"><span class="y">Libraries</span></a></h3>
+			</div>
+			<div id="section2">
+				<img src="images/termux.png" alt="Termux" id="termux">
+					<h1>* Course Termux *</h1>
+					<h3 class="corses">Course <span>1</span>: <a href="https://m.facebook.com/story.php?story_fbid=235491087797238&id=101083841237964"><span class="y">Basics</span></a></h3>
+					<h3 class="corses">Course <span>2</span>: <a href="https://m.facebook.com/story.php?story_fbid=237495417596805&id=101083841237964"><span class="y">Commands</span></a></h3>
+					<h3 class="corses">Course<span> 3</span>: <a href="https://m.facebook.com/story.php?story_fbid=258741685472178&id=101083841237964"><span class="y">Nano in Termux</span></a></h3>
+					<h3 class="corses">Course <span>4</span>: <a href="https://m.facebook.com/story.php?story_fbid=478963753449969&id=101083841237964"><span class="y">Edit Termux App</span></a></h3>
+			</div>
+			<div id="section3">
+				<img src="images/books.jpeg" alt="Books" id="books">
+					<h1>* Books For Hacking *</h1>
+					<h3>Link for books : <a href="https://m.facebook.com/story.php?story_fbid=471669724179372&id=101083841237964">مجموعة كتب حول مجال الامن المعلوماتي.</a></h3>
+			</div>
+			
+			<div id="section4">
+				<img src="images/ToolG.png" alt="Tool" id="tool">
+					<h1>* Tool for Termox *</h1>
+					<h3 class="ly">Link in Github:</h3><h3><a href="https://github.com/YASSER-CH/TOOLG"> https://github.com/YASSER-CH/TOOLG</a></h3>
+			</div>
+		
+			<!-- footer -->
+	<footer>
+		<a href="#" class="scrollToTop"><i class="fas fa-chevron-circle-up" id="up"></i></a><br>
+		<h3><a href="https://web.facebook.com/Telecom.Engineer.Ghost" id="By"><b>THE GHOST</b></a></h3><br>
+			<b>Copy right 2022 ,All Rights Reserved ©</b>
+			
+		</footer>
+		<!-- add javascript -->
+		<script type="text/javascript">
+		var d = document.getElementById("box");
+		function closenav(){
+			d.style.height = "0px";
+		}
+		function opennav(){
+			d.style.height = "200px";
+		}
+			function menu(){
+				if(d.style.height === "200px"){
+					closenav()
+				} else{
+					opennav()
+				}
+				}
+		</script>
+	</body>
+</html>
