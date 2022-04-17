@@ -22,8 +22,11 @@ header h1{
 }
 #logo{
 	width: 70%;
-	height: 30vw;
+	height: 40vw;
 	margin-top: 100px;
+}
+#box{
+       margin: 200px 30px 200px 30px;
 }
 #box h1{
 	text-align: center;
