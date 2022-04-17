@@ -57,7 +57,7 @@ nav h2{
 	color: white;
 }
 #logo{
-	width: 50%;
+	width: 70%;
 	height: 30vw;
 	margin-top: 100px;
 }
@@ -71,7 +71,7 @@ nav h2{
  text-align: center;
 }
 #python{
-	width: 50%;
+	width: 70%;
 	height: 30vw;
 }
 #section1 h1{
@@ -93,7 +93,7 @@ span{
  text-align: center;
 }
 #termux{
-	width: 50%;
+	width: 70%;
 	height: 30vw;
 	margin-top: 100px;
 }
@@ -106,7 +106,7 @@ span{
  text-align: center;
 }
 #books{
-	width: 600px;
+	width: 70%;
 	height: 70vw;
 	margin-top: 100px;
 }
@@ -123,7 +123,7 @@ span{
  text-align: center;
 }
 #tool{
-	width: 50%;
+	width: 70%;
 	height: 30vw;
 }
 #section4 h1{
